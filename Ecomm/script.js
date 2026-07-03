@@ -81,4 +81,4 @@
     const deleteproduct = (index) => {
         productsArr.splice(index, 1);
         ui();
-    }
+    };
