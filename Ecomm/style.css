@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+
+    height: 10%;
+    width: calc(100% - 40px);
+    background-color: #36457b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+ 
+button {
+    background-color: #f8f6f6;
+    color: #010101;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.products {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 100%;
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+.product-card {
+    height: 40%;
+    width: 25%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 0px 10px grey;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img {
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+ .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+.btns{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#update{
+    background-color: darkgoldenrod;
+    color: #fff;
+}
+#delete{
+    background-color: #771720;
+    color: #fff;
+}
+
+.form{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(0, 0, 0, 0.499);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;  
+    gap: 10px;
+}
+
+form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+input{
+    padding: 10px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    
+}
+
+
+.form .top{
+    display: flex;
+    justify-content: space-between;
+    width :50%;
+    color: #060606;
+    font-size: 15px;
+   
+}
+
+.form .top h1{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+     Font-weight: 300;
+}
